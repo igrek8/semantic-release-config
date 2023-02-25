@@ -1,0 +1,6 @@
+.eslintignore
+CODEOWNERS
+.gitignore
+.husky
+.npmrc
+.prettierignore
