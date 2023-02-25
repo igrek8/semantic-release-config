@@ -1,0 +1,40 @@
+{
+  "name": "@igrek8/semantic-release-config",
+  "version": "0.0.0",
+  "license": "MIT",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "release.config.js"
+  ],
+  "main": "release.config.js",
+  "scripts": {
+    "format": "prettier --check \"**/*\""
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "^17",
+    "@commitlint/config-conventional": "^17",
+    "@semantic-release/commit-analyzer": "^9",
+    "@semantic-release/github": "^8",
+    "@semantic-release/npm": "^9",
+    "@semantic-release/release-notes-generator": "^10",
+    "semantic-release": "^20"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.4.4",
+    "@commitlint/config-conventional": "17.4.4",
+    "@semantic-release/commit-analyzer": "9.0.2",
+    "@semantic-release/github": "8.0.7",
+    "@semantic-release/npm": "9.0.2",
+    "@semantic-release/release-notes-generator": "10.0.3",
+    "husky": "8.0.3",
+    "prettier": "2.8.4",
+    "semantic-release": "20.1.0"
+  }
+}
