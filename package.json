@@ -27,7 +27,7 @@
     "semantic-release": "^20"
   },
   "devDependencies": {
-    "@commitlint/cli": "19.4.1",
+    "@commitlint/cli": "19.5.0",
     "@commitlint/config-conventional": "19.5.0",
     "@semantic-release/commit-analyzer": "13.0.0",
     "@semantic-release/github": "10.3.3",
